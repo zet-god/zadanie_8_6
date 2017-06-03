@@ -1,7 +1,16 @@
 //alert('hello');
 
+/* wartości dodatnie
 var a = 10;
-var b = 7.5;
+var b = 7.5; */
+
+/* wartości ujemne
+var a = -10;
+var b = 7; */
+
+//wartości dla value = 0
+var a = 0;
+var b = 0;
 
 var value = (a * a) + (2 * a * b) - (b * b);
 
@@ -17,5 +26,5 @@ if (value > 0) {
 
 // version two
 
-var whatIsBigger = value > 0 ? 'wynik dodatni' : 'wynik ujemny';
+var whatIsBigger = value > 0 ? 'wynik dodatni' : whatIsBigger = value < 0 ? 'wynik ujemny' : 'wynik równy 0';
 console.log(whatIsBigger);
