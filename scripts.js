@@ -26,5 +26,10 @@ if (value > 0) {
 
 // version two
 
-var whatIsBigger = value > 0 ? 'wynik dodatni' : whatIsBigger = value < 0 ? 'wynik ujemny' : 'wynik równy 0';
+var whatIsBigger = value > 0 
+	? 'wynik dodatni' 
+	: value < 0 
+		? 'wynik ujemny' 
+		: 'wynik równy 0';
+
 console.log(whatIsBigger);
